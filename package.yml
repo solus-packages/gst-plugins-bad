@@ -1,0 +1,42 @@
+name       : gst-plugins-bad
+version    : 0.10.23
+release    : 1
+source     :
+    - http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-0.10.23.tar.xz : 03cf0786391c64625569072e904082a08861f05a63d64b2f8e8dad3f26d81bf9
+license    :
+    - GPL-2.0
+    - LGPL-2.0
+summary    : Streaming media framework
+description: |
+    GStreamer is a streaming media framework that enables applications to share a common set of plugins for things like video encoding and decoding, audio encoding and decoding, audio and video filters, audio visualisation, web streaming and anything else that streams in real-time or otherwise. This package only provides base functionality and libraries.
+builddeps  :
+    - pkgconfig(gstreamer-0.10)
+    - pkgconfig(gmodule-export-2.0)
+    - pkgconfig(x11)
+    - pkgconfig(gstreamer-plugins-base-0.10)
+    - pkgconfig(libexif)
+    - pkgconfig(libass)
+    - pkgconfig(vo-aacenc)
+    - pkgconfig(openssl)
+    - pkgconfig(cairo)
+    - pkgconfig(celt)
+    - pkgconfig(libpng)
+    - pkgconfig(libcurl)
+    - pkgconfig(libdc1394-2)
+    - pkgconfig(dvdnav)
+    - pkgconfig(kate)
+    - pkgconfig(libmodplug)
+    - pkgconfig(neon)
+    - pkgconfig(openal)
+    - pkgconfig(opencv)
+    - pkgconfig(opus)
+    - pkgconfig(librsvg-2.0)
+    - pkgconfig(sndfile)
+    - pkgconfig(vdpau)
+    - pkgconfig(librtmp)
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install
