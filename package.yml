@@ -1,6 +1,6 @@
 name       : gst-plugins-bad
 version    : 0.10.23
-release    : 3
+release    : 4
 source     :
     - http://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-0.10.23.tar.xz : 03cf0786391c64625569072e904082a08861f05a63d64b2f8e8dad3f26d81bf9
 license    :
