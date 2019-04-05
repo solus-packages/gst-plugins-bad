@@ -2,8 +2,8 @@
     <Source>
         <Name>gst-plugins-bad</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Rune Morling</Name>
+            <Email>ermo.solus-project.com@spammesenseless.net</Email>
         </Packager>
         <License>GPL-2.0</License>
         <License>LGPL-2.0</License>
@@ -176,7 +176,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="7">gst-plugins-bad</Dependency>
+            <Dependency release="8">gst-plugins-bad</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gstreamer-0.10/gst/basecamerabinsrc/gstbasecamerasrc.h</Path>
@@ -256,12 +256,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2019-03-31</Date>
+        <Update release="8">
+            <Date>2019-04-05</Date>
             <Version>0.10.23</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Rune Morling</Name>
+            <Email>ermo.solus-project.com@spammesenseless.net</Email>
         </Update>
     </History>
 </PISI>
