@@ -2,11 +2,11 @@
     <Source>
         <Name>gst-plugins-bad</Name>
         <Packager>
-            <Name>Rune Morling</Name>
-            <Email>ermo.solus-project.com@spammesenseless.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
-        <License>GPL-2.0</License>
-        <License>LGPL-2.0</License>
+        <License>GPL-2.0-or-alter</License>
+        <License>LGPL-2.0-or-later</License>
         <PartOf>multimedia.gstreamer</PartOf>
         <Summary xml:lang="en">Streaming media framework</Summary>
         <Description xml:lang="en">GStreamer is a streaming media framework that enables applications to share a common set of plugins for things like video encoding and decoding, audio encoding and decoding, audio and video filters, audio visualisation, web streaming and anything else that streams in real-time or otherwise. This package only provides base functionality and libraries.
@@ -23,7 +23,6 @@
             <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstadpcmdec.so</Path>
             <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstadpcmenc.so</Path>
             <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstaiff.so</Path>
-            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstapexsink.so</Path>
             <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstasfmux.so</Path>
             <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstassrender.so</Path>
             <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstaudiovisualizers.so</Path>
@@ -176,7 +175,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="8">gst-plugins-bad</Dependency>
+            <Dependency release="9">gst-plugins-bad</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gstreamer-0.10/gst/basecamerabinsrc/gstbasecamerasrc.h</Path>
@@ -256,12 +255,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2019-04-05</Date>
+        <Update release="9">
+            <Date>2020-03-04</Date>
             <Version>0.10.23</Version>
             <Comment>Packaging update</Comment>
-            <Name>Rune Morling</Name>
-            <Email>ermo.solus-project.com@spammesenseless.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
