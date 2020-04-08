@@ -2,8 +2,8 @@
     <Source>
         <Name>gst-plugins-bad</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>GPL-2.0-or-alter</License>
         <License>LGPL-2.0-or-later</License>
@@ -175,7 +175,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="10">gst-plugins-bad</Dependency>
+            <Dependency release="11">gst-plugins-bad</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gstreamer-0.10/gst/basecamerabinsrc/gstbasecamerasrc.h</Path>
@@ -255,12 +255,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2020-03-04</Date>
+        <Update release="11">
+            <Date>2020-04-08</Date>
             <Version>0.10.23</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
