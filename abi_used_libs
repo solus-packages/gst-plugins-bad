@@ -1,3 +1,4 @@
+UNKNOWN
 libX11.so.6
 libass.so.9
 libbz2.so.1.0
@@ -35,7 +36,7 @@ libpng16.so.16
 libpthread.so.0
 librsvg-2.so.2
 librt.so.1
-librtmp.so.0
+librtmp.so.1
 libsndfile.so.1
 libstdc++.so.6
 libvdpau.so.1
